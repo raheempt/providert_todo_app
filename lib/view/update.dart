@@ -90,7 +90,6 @@ class _UpdateListState extends State<UpdateList> {
                       age,
                       contact,
                       email,
-                      // Pass the Uint8List image directly
                     );
 
                     studentapp updatedList = studentapp(
@@ -98,7 +97,6 @@ class _UpdateListState extends State<UpdateList> {
                       age: age,
                       contact: contact,
                       email: email,
-                      //  image: imagepath,
                     );
 
                     todoBox.putAt(widget.index, updatedList);
