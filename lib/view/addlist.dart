@@ -15,17 +15,16 @@ class AddList extends StatelessWidget {
     final emailController = TextEditingController();
 
     return Scaffold(
+         appBar: AppBar(
+        backgroundColor: const Color.fromARGB(255, 7, 226, 255),
+      ),
       body: Center(
         child: SingleChildScrollView(
           child: Padding(
             padding: const EdgeInsets.all(15.0),
             child: Column(
               children: [
-                IconButton(
-                  onPressed: () {
-                  },
-                  icon: Icon(Icons.add_a_photo, size: 60),
-                ),
+             
                 SizedBox(
                   height: 30,
                 ),
